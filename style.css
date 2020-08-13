@@ -14,66 +14,90 @@ header {
   top: 0px;
   margin: auto;
   width: 100%;
+  background-color: #000;
 }
-.navbar-brand {
-  color: white;
+header .navbar-brand {
+  color: #fff;
   font-family: "Times New Roman", Times, serif;
   font-size: 40px;
   letter-spacing: 10px;
   padding-left: 28px;
 }
 
-.nav-item {
-  color: white;
+header .navbar-brand:hover {
+  color: #fff;
+}
+
+header .nav-item {
+  color: #fff;
   font-family: Verdana;
   font-size: 13px;
   padding: 10px;
   padding-right: 18px;
 }
 
-ul {
+header ul {
   list-style: none;
-  margin: 0 0 0 auto;
   display: flex;
 }
 
-li {
-  color: white;
+header li {
+  color: #fff;
   font-size: 13px;
   padding: 10px;
   padding-right: 18px;
 }
 
-.dropdown:hover > .dropdown-menu {
+header .nav-link {
+  color: #fff;
+}
+
+header .nav-link:hover {
+  color: #999;
+}
+
+header .dropdown:hover > .dropdown-menu {
   display: block;
 }
 
-.navbar-nav > li > .dropdown-menu {
-  background-color: black;
+header .dropdown-item:hover {
+  background-color: rgb(114, 43, 43);
+  color: #fff;
 }
 
-.dropdown-item {
-  color: rgba(255, 255, 255);
+header .navbar-nav > li > .dropdown-menu {
+  background-color: #000;
+  padding-top: 12px;
+  padding-bottom: 0;
 }
 
-button:focus {
+header .dropdown-item {
+  color: #fff;
+  height: 45px;
+  line-height: 36px;
+  font-size: 14px;
+}
+
+/*ハンバーガーバー*/
+
+header button:focus {
   outline: 0;
 }
 
-.navbar-trigger,
-.navbar-trigger span {
+header .navbar-trigger,
+header .navbar-trigger span {
   display: inline-block;
   transition: all 0.4s;
   box-sizing: border-box;
 }
 
-.navbar-toggler {
+header .navbar-toggler {
   position: relative;
   width: 20px;
   height: 20px;
 }
 
-.navbar-trigger span {
+header .navbar-trigger span {
   position: absolute;
   left: 0;
   width: 100%;
@@ -81,13 +105,13 @@ button:focus {
   background-color: #fff;
   border-radius: 4px;
 }
-.navbar-trigger span:nth-of-type(1) {
+header .navbar-trigger span:nth-of-type(1) {
   top: 0;
 }
-.navbar-trigger span:nth-of-type(2) {
+header .navbar-trigger span:nth-of-type(2) {
   top: 7px;
 }
-.navbar-trigger span:nth-of-type(3) {
+header .navbar-trigger span:nth-of-type(3) {
   bottom: 0;
 }
 
