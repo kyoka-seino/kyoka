@@ -1,12 +1,97 @@
 /* --------> common */
-.クラス名 {
-}
 
-.クラス名2 {
-}
 /* <-------- common */
 
 /* --------> header */
+header {
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.8);
+}
+
+header .navbar-brand {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  letter-spacing: 10px;
+  padding-left: 28px;
+}
+
+header .navbar-brand:hover {
+  color: #fff;
+}
+
+header li {
+  color: #fff;
+  font-family: Verdana;
+  font-size: 13px;
+  padding: 10px 18px 10px 10px;
+}
+
+header .nav-link {
+  color: #fff;
+}
+
+header .nav-link:hover {
+  color: #999;
+}
+
+header .dropdown-item:hover {
+  background-color: rgb(114, 43, 43);
+  color: #fff;
+}
+
+header .navbar-nav > li > .dropdown-menu {
+  background-color: #000;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 13px;
+}
+
+header .dropdown-item {
+  color: #fff;
+  height: 45px;
+  line-height: 36px;
+  font-size: 14px;
+}
+
+/*ハンバーガーバー*/
+
+header button:focus {
+  outline: 0;
+}
+
+header .navbar-toggler {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+header .navbar-trigger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+header .navbar-trigger span:nth-of-type(1) {
+  top: 0;
+}
+
+header .navbar-trigger span:nth-of-type(2) {
+  top: 7px;
+}
+
+header .navbar-trigger span:nth-of-type(3) {
+  bottom: 0;
+}
+
+@media screen and (max-width: 1190px) {
+  header {
+    background-color: #000;
+  }
+}
 
 /* <-------- header */
 
