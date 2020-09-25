@@ -96,6 +96,109 @@ header .navbar-trigger span:nth-of-type(3) {
 /* <-------- header */
 
 /* --------> main */
+.top-area {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  background-image: url(https://faavo.jp/magazine/images/lgf01a201308241800.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-up {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  padding: 0 20px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.t-container {
+  color: #fff;
+  font-size: 36px;
+  font-family: "Times New Roman", serif;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  visibility: visible;
+  text-align: left;
+  white-space: nowrap;
+  writing-mode: vertical-rl;
+  top: auto;
+  bottom: auto;
+}
+
+.top-under {
+  background: #000;
+  color: #fff;
+  position: relative;
+  margin-bottom: 30px;
+  padding: 51px 0 79px;
+  text-align: center;
+}
+
+.l-inner {
+  position: relative;
+  width: 92.1875%;
+  max-width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inner-title {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-family: "Times New Roman", serif;
+  font-weight: 500;
+}
+
+.inner-desc {
+  font-size: 14px;
+  line-height: 2.6;
+  margin-bottom: 0;
+  font-family: "Segoe UI", Verdana, "游ゴシック", YuGothic,
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .top-area {
+    height: 360px;
+    padding-bottom: 0;
+  }
+
+  .t-container {
+    font-size: 20px;
+  }
+
+  .top-under {
+    margin-bottom: 40px;
+    padding: 32px 0 33px;
+  }
+
+  .l-inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .inner-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .inner-desc {
+    line-height: 2;
+    font-size: 14px;
+    font-family: "Segoe UI", Verdana, "游ゴシック", YuGothic,
+      "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  }
+}
 
 /* <-------- main */
 
