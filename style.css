@@ -96,19 +96,18 @@ header .navbar-trigger span:nth-of-type(3) {
 /* <-------- header */
 
 /* --------> main */
-.top-area {
+.top-up-area {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%;
+  height: 650px;
   overflow: hidden;
-  background-image: url(https://faavo.jp/magazine/images/lgf01a201308241800.jpg);
+  background-image: url(backgroundimage.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .top-up {
-  z-index: 1;
   position: absolute;
   top: 50%;
   left: 0;
@@ -129,11 +128,9 @@ header .navbar-trigger span:nth-of-type(3) {
   text-align: left;
   white-space: nowrap;
   writing-mode: vertical-rl;
-  top: auto;
-  bottom: auto;
 }
 
-.top-under {
+.top-under-area {
   background: #000;
   color: #fff;
   position: relative;
@@ -144,8 +141,7 @@ header .navbar-trigger span:nth-of-type(3) {
 
 .l-inner {
   position: relative;
-  width: 92.1875%;
-  max-width: 1180px;
+  padding: 0 20px 0 20px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -168,9 +164,10 @@ header .navbar-trigger span:nth-of-type(3) {
 }
 
 @media screen and (max-width: 767px) {
-  .top-area {
+  .top-up-area {
     height: 360px;
     padding-bottom: 0;
+    background-size: cover;
   }
 
   .t-container {
