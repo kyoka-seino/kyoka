@@ -87,44 +87,27 @@ header .navbar-trigger span:nth-of-type(3) {
   bottom: 0;
 }
 
-@media screen and (max-width: 1190px) {
-  header {
-    background-color: #000;
-  }
-}
-
 /* <-------- header */
 
 /* --------> main */
-.top-up-area {
-  position: relative;
+.top-image-area {
   width: 100%;
   height: 650px;
   overflow: hidden;
-  background-image: url(backgroundimage.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(image/backgroundimage.jpg) no-repeat center/cover;
 }
 
-.top-up {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  padding: 0 20px;
-  transform: translateY(-50%);
+.top-image {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
-.t-container {
+.image-desc {
   color: #fff;
   font-size: 36px;
   font-family: "Times New Roman", serif;
   font-weight: 500;
-  position: relative;
-  overflow: hidden;
-  visibility: visible;
   text-align: left;
   white-space: nowrap;
   writing-mode: vertical-rl;
@@ -133,17 +116,14 @@ header .navbar-trigger span:nth-of-type(3) {
 .top-under-area {
   background: #000;
   color: #fff;
-  position: relative;
   margin-bottom: 30px;
   padding: 51px 0 79px;
   text-align: center;
 }
 
 .l-inner {
-  position: relative;
-  padding: 0 20px 0 20px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .inner-title {
@@ -163,14 +143,25 @@ header .navbar-trigger span:nth-of-type(3) {
     "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
+/* <-------- main */
+
+/* --------> footer */
+
+/* <-------- footer */
+@media screen and (max-width: 1190px) {
+  header {
+    background-color: #000;
+  }
+}
+
 @media screen and (max-width: 767px) {
-  .top-up-area {
+  .top-image-area {
     height: 360px;
     padding-bottom: 0;
     background-size: cover;
   }
 
-  .t-container {
+  .image-desc {
     font-size: 20px;
   }
 
@@ -196,9 +187,3 @@ header .navbar-trigger span:nth-of-type(3) {
       "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   }
 }
-
-/* <-------- main */
-
-/* --------> footer */
-
-/* <-------- footer */
